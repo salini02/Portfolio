@@ -1,6 +1,6 @@
 "use client";
 // import laptop from "../assets/dp.svg";
-import laptop from "../assets/dp.png";
+// import laptop from "../assets/dp.png";
 
 import Image from "next/image";
 import { HeroHighlightDemo } from "./Herohighlight";
@@ -31,12 +31,12 @@ export function AboutSection() {
         </div>
 
         {/* Image Section */}
-        <div className="flex flex-row sm:flex-col items-center justify-evenly relative">
+        {/* <div className="flex flex-row sm:flex-col items-center justify-evenly relative">
           <Image
             src={laptop}
             alt="Laptop"
             className="w-72 h-auto object-contain rounded-md"
-          />
+          /> */}
           <div className="relative top-10 sm:top-0">
             <FloatingDockDemo />
           </div>
